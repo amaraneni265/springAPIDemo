@@ -10,20 +10,26 @@ import javax.persistence.*;
 @Table(name = "features")
 public class Feature {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name="featureName",nullable = false)
+    @Column(name="featureName")
     private String featureName;
 
 
-    @Column(name="email",nullable = false)
+    @Column(name="email")
     private String email;
 
-    @Column(name="enable",nullable = false)
+    @Column(name="enable")
     private  boolean enable;
 
+
+    public Feature()
+    {
+
+    }
 
     public Feature(String featureName,String email,boolean  enable) {
           this.featureName = featureName;
