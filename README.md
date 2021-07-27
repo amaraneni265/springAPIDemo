@@ -1,5 +1,5 @@
 # springAPIDemo
-My first Attempt Sample spring API demo with H2 In-memory DB
+My first Attempt at Sample spring API  with H2 In-memory DB
 
 
 This service is a simpel Rest service using H2 IN-memory DB with default 2 records (refer to data.sql ) on initial load. 
@@ -26,8 +26,8 @@ sample Request Payload: {
 "enable" : false
 }
 
-Response:  Empty resonponse with status code 200 (Db update or insert)
-           Empty resonponse with status code 304 (No insert or update in DB)
+Response:  Empty response with status code 200 (Db update or insert)
+           Empty response with status code 304 (No insert or update in DB)
            
            
 
